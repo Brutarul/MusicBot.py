@@ -22,7 +22,7 @@ This Discord bot plays music in voice channels using YouTube as a source. It inc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/discord-music-bot.git
+    git clone https://github.com/Brutarul/discord-music-bot.git
     cd discord-music-bot
     ```
 
