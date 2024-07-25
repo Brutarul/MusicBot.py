@@ -57,4 +57,27 @@ Invite your bot to your server and use the following commands:
 ### Example
 
 To play a song, simply type:
+/play Never Gonna Give You Up
 
+The bot will join your voice channel and start playing the song. You can queue more songs using the same command.
+
+## Project Structure
+
+- **`bot.py`**: Main entry point for the bot.
+- **`cogs/music_cog.py`**: Contains the `MusicCog` class with music commands and functionality.
+- **`config.py`**: Contains your bot token. (Do not forget to add this file and update it with your own token.)
+- **`requirements.txt`**: Lists required Python packages.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests. For major changes, please open an issue to discuss your proposed changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://github.com/Brutarul/MusicBot.py/issues).
+
+Happy coding!
