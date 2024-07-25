@@ -22,8 +22,8 @@ This Discord bot plays music in voice channels using YouTube as a source. It inc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Brutarul/MusicBot.py
-    cd discord-music-bot
+    git clone https://github.com/Brutarul/MusicBot.py.git
+    cd MusicBot.py
     ```
 
 2. Install the required Python packages:
