@@ -14,9 +14,8 @@ This Discord bot plays music in voice channels using YouTube as a source. It inc
 
 - Python 3.8+
 - `discord.py` library
-- `youtube-dl` library
+- `yt-dlp` library
 - `youtubesearchpython` library
-- `ffmpeg` installed and added to your PATH
 
 ## Installation
 
