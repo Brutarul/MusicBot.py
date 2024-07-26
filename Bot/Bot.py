@@ -1,6 +1,7 @@
+import asyncio
 import discord
-from discord.ext import commands
 import config
+from discord.ext import commands
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -11,8 +12,9 @@ async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
     await bot.tree.sync()
 
-async def setup():
+async def main():
     await bot.load_extension("music_cog")
+    async with bot:
+        await bot.run(config.Token)
 
-bot.loop.create_task(setup())
-bot.run(config.TOKEN)
+asyncio.run(main())
