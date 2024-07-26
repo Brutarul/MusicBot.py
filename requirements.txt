@@ -1,5 +1,0 @@
-discord
-requests
-youtube_search_python
-yt-dlp
-PyNaCl
